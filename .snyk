@@ -1,0 +1,41 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - netlify-cms > unified > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby-plugin-sass > node-sass > request > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby-transformer-remark > unified > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-npm > request > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > jspm-github > request > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby-transformer-remark > remark > unified > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby-plugin-sass > node-sass > node-gyp > request > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > liftoff > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > proper-lockfile > extend:
+        patched: '2019-09-07T18:01:06.161Z'
+  'npm:hoek:20180212':
+    - gatsby-plugin-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby-plugin-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby-plugin-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-09-07T18:01:06.161Z'
+    - gatsby-plugin-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2019-09-07T18:01:06.161Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2019-09-07T18:01:06.161Z'
+  'npm:stringstream:20180511':
+    - gatsby-plugin-sass > node-sass > node-gyp > request > stringstream:
+        patched: '2019-09-07T18:01:06.161Z'
