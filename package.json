@@ -17,7 +17,7 @@
     "bulma": "^0.7.1",
     "disqus-react": "^1.0.5",
     "font-awesome": "^4.7.0",
-    "gatsby": "^2.0.0",
+    "gatsby": "^2.32.8",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-netlify-cms": "^2.0.1",
