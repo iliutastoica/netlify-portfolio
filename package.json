@@ -28,7 +28,7 @@
     "netlify-cms": "^1.9.3",
     "react-anchor-link-smooth-scroll": "^1.0.10",
     "react-helmet": "^5.2.0",
-    "snyk": "^1.226.0"
+    "snyk": "^1.230.7"
   },
   "snyk": true
 }
